@@ -1,5 +1,5 @@
 shinyUI(pageWithSidebar(
-  headerPanel('Three Gaussing Kernel Experiment'),
+  headerPanel('Three-Part Gaussian Kernel Experiment'),
   sidebarPanel(
     p('This application allows you to experiment with a Gaussian kernel made up of three individual Gaussian functions.  The three individual Gaussian functions are summed together to produce a composite kernel that can represent a function that contains three individual peaks.  This is useful for continuous ant colony optimization (ACO), see pitch document for more info.'),
     h3('Gaussian Function #1'),
